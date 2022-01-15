@@ -117,7 +117,7 @@ public class MyArrayList<T> implements List<T> {
     public int indexOf(Object target) {
         // TODO: FILL THIS IN!
         for (int i = 0; i < size; i++) {
-            if (equals(targe, array[i])) {
+            if (equals(target, array[i])) {
                 return i;
             }
         }
