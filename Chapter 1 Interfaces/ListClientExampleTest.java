@@ -1,10 +1,10 @@
 import java.util.*;
 
-public class ListClientExample {
+public class ListClientExampleTest {
 	private List list;
 
-	public ListClientExample() {
-		list = new LinkedList<>(Arrays.asList("Lee", "Ha", "Rim", 5));
+	public ListClientExampleTest() {
+		list = new ArrayList<>(Arrays.asList("Lee", "Ha", "Rim", 5));
 	}
 
 	public List getList() {
@@ -12,7 +12,7 @@ public class ListClientExample {
 	}
 
 	public static void main(String[] args) {
-		ListClientExample lce = new ListClientExample();
+		ListClientExampleTest lce = new ListClientExampleTest();
 		List list = lce.getList();
 		System.out.println(list);
 		System.out.println("Data-type of list : " + list.getClass().getName());
